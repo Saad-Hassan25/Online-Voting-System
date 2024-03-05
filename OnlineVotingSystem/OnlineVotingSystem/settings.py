@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'OnlineVotingSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'OVSdb',
+        'NAME': 'NameOfYourDatabase', # Write name of your database for example OVSdb
         'USER': 'postgres',
-        'PASSWORD': 'saad',
+        'PASSWORD': 'PasswordOfYourDatabase', # Write password of your database
         'HOST': 'localhost',  
         'PORT': '5432',          
     }
