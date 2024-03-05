@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
 <h1>Online Voting System</h1>
 
 <h2>Abstract</h2>
@@ -34,6 +39,22 @@
   <li>CSS</li>
   <li>And more to implement the following functionality.</li>
 </ul>
+
+<h2>Installation</h2>
+<ol>
+  <li>Copy ovsENV and OnlineVotingSystem into a folder you create.</li>
+  <li>In Visual Studio Code, open the folder you created containing ovsENV and OnlineVotingSystem.</li>
+  <li>Activate the virtual environment by typing in the terminal of Visual Studio Code: <code>ovsENV/Scripts/Activate</code>.</li>
+  <li>Change directory to OnlineVotingSystem: <code>CD OnlineVotingSystem</code>.</li>
+  <li>Run the following commands in sequence:
+    <ol type="a">
+      <li><code>python manage.py makemigrations</code></li>
+      <li><code>python manage.py migrate</code></li>
+      <li><code>python manage.py runserver</code></li>
+    </ol>
+  </li>
+  <li>Before running, make changes in <code>settings.py</code>. Attach your own database and enter email credentials for email verification.</li>
+</ol>
 
 </body>
 </html>
